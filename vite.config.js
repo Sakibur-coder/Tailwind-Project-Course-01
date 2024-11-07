@@ -3,8 +3,8 @@ import {defineConfig} from "vite";
 
 export default defineConfig ({
     build: {
-        rollupoption: {
-            Input: {
+        rollupOptions: {
+            input: {
                 main: resolve(__dirname, "index.html"),
                 news: resolve(__dirname, "news.html"),
             },
