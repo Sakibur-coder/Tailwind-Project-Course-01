@@ -1,6 +1,5 @@
 import { resolve } from "path";
-import { Input } from "postcss";
-import { build, defineConfig, rollupVersion } from "vite";
+import {defineConfig} from "vite";
 
 export default defineConfig ({
     build: {
